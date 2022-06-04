@@ -8,14 +8,56 @@ Para isso, irei utilizar um algoritmo desenvolvido por mim durante a faculdade, 
 
 ## Comandos git utilizados:
 
-git init
+Inicializa git, cria o repositório: 
+**git init**
 
-git add *
+Adicionar arquivo/repositório: 
+**git add * / git add .** 
 
-git status
+Mostra status do repositório: 
+**git status**
 
-git commit -m "Desafio de Projeto Git/Github DIO - Primeiro Repositório"
+Cria um commit: 
+**git commit -m "Desafio de Projeto Git/Github DIO - Primeiro Repositório"**
 
-git remote add origin https://github.com/lucasgabrielsg/dio-desfio-projeto.git
 
-git push origin master
+Adicionar a origem em que os arquivos são enviados: 
+**git remote add origin https://github.com/lucasgabrielsg/dio-desfio-projeto.git**
+
+Lista os repositorios cadastrados: 
+**git remote -v**
+
+
+Envia (empurra) o repositório para o github: 
+**git push origin master**
+
+
+## Outros comandos aprendidos, mas não utilizados: 
+
+Gera chave SSH para o github: 
+**ssh-keygen -t ed25519 -C gabriellucassg@gmail.com**
+
+Mostra o conteúdo da chave SSH: 
+**cat id_ed25519.pub**
+
+Inicializa o SSH agent – pega e administra as chaves: 
+**eval $(ssh-agent -s)**
+
+Entrega a chave para o agent: 
+**ssh-add caminho_chave_privada_ssh**
+
+Clona o repositório do github: **git clone caminho_chave_ssh**
+
+Configura o git, define autor: 
+**git config --global user.email "gabriellucassg@gmail.com"
+git config --global user.name Lucas**
+
+Lista as configurações do git:
+**git config --list**
+
+Remove configuração do git, reescreve: 
+**git config --global --unset user.email / git config --global --unset user.name**
+
+Baixa (puxar) repositório do github: 
+**git pull origin master**
+
