@@ -7,8 +7,15 @@ Para isso, irei utilizar um algoritmo desenvolvido por mim durante a faculdade, 
 **Descrição do algoritmo:** O algoritmo encontra o vértice de maior grau (vértice que possui a maior quantidade de arestas incidentes) em uma matriz NxN. Para isso, são usados conceitos de Programação Paralela, utilizando pthreads
 
 ## Comandos git utilizados:
+
 git init
+
 git add *
+
 git status
+
 git commit -m "Desafio de Projeto Git/Github DIO - Primeiro Repositório"
- git remote add origin https://github.com/lucasgabrielsg/dio-desfio-projeto.git
+
+git remote add origin https://github.com/lucasgabrielsg/dio-desfio-projeto.git
+
+git push origin master
